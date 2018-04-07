@@ -23,9 +23,9 @@
     </developers>
 
     <scm>
-        <connection>scm:git:git@github.com:https://github.com/Milkshak3s/graylog-plugin-fifty-shades.git.git</connection>
-        <developerConnection>scm:git:git@github.com:https://github.com/Milkshak3s/graylog-plugin-fifty-shades.git.git</developerConnection>
-        <url>https://github.com/https://github.com/Milkshak3s/graylog-plugin-fifty-shades.git</url>
+        <connection>scm:git:git@github.com:https://github.com/Milkshak3s/50SHADES.git</connection>
+        <developerConnection>scm:git:git@github.com:https://github.com/Milkshak3s/50SHADES.git</developerConnection>
+        <url>https://github.com/https://github.com/Milkshak3s/50SHADES.git</url>
         <tag>HEAD</tag>
     </scm>
 

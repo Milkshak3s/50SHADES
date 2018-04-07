@@ -3,6 +3,10 @@ package com.grayenterprise.periodicals;
 import org.graylog2.plugin.periodical.Periodical;
 import org.slf4j.Logger;
 
+/**
+ * The periodical handler for FiftyShades
+ * @author Chris Vantine
+ */
 public class FiftyShadesPeriodicalMinute extends Periodical {
 
     /**

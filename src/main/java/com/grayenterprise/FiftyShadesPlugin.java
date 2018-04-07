@@ -8,7 +8,8 @@ import java.util.Collection;
 import java.util.Collections;
 
 /**
- * Implement the Plugin interface here.
+ * The plugin interface
+ * @author Chris Vantine
  */
 public class FiftyShadesPlugin implements Plugin {
     @Override

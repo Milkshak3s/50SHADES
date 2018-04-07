@@ -8,7 +8,8 @@ import java.util.Collections;
 import java.util.Set;
 
 /**
- * Extend the PluginModule abstract class here to add you plugin to the system.
+ * Register plugin information
+ * @author Chris Vantine
  */
 public class FiftyShadesModule extends PluginModule {
     /**
@@ -44,8 +45,6 @@ public class FiftyShadesModule extends PluginModule {
 
         // periodic execution of code, by the minute
         addPeriodical(FiftyShadesPeriodicalMinute.class);
-
-        addRestResource();
     }
 
 }

