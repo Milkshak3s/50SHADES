@@ -1,5 +1,6 @@
 package com.grayenterprise;
 
+import com.grayenterprise.periodicals.FiftyShadesPeriodicalMinute;
 import org.graylog2.plugin.PluginConfigBean;
 import org.graylog2.plugin.PluginModule;
 
@@ -40,5 +41,11 @@ public class FiftyShadesModule extends PluginModule {
          *
          * addConfigBeans();
          */
+
+        // periodic execution of code, by the minute
+        addPeriodical(FiftyShadesPeriodicalMinute.class);
+
+        addRestResource();
     }
+
 }
