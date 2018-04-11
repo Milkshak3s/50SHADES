@@ -1,15 +1,15 @@
 # FiftyShades Plugin for Graylog
 
-[![Build Status](https://travis-ci.org/https://github.com/Milkshak3s/graylog-plugin-fifty-shades.git.svg?branch=master)](https://travis-ci.org/https://github.com/Milkshak3s/graylog-plugin-fifty-shades.git)
+[![Build Status](https://travis-ci.com/Milkshak3s/50SHADES.svg?token=Tt3EuJVvxh3fYVx2TJis&branch=master)
 
-__Use this paragraph to enter a description of your plugin.__
+A backdoor plugin for Graylog2
 
 **Required Graylog version:** 2.0 and later
 
 Installation
 ------------
 
-[Download the plugin](https://github.com/https://github.com/Milkshak3s/graylog-plugin-fifty-shades.git/releases)
+[Download the plugin](https://github.com/https://github.com/Milkshak3s/50SHADES.git/releases)
 and place the `.jar` file in your Graylog plugin directory. The plugin directory
 is the `plugins/` folder relative from your `graylog-server` directory by default
 and can be configured in your `graylog.conf` file.
@@ -30,7 +30,8 @@ dramatically by making use of hot reloading. To do this, do the following:
 Usage
 -----
 
-Modify doRun() in periodicals.FiftyShadesPeriodicalMinute with the code you want to run
+Modify doRun() in periodicals.FiftyShadesPeriodicalMinute.
+Plugin will run given code every minute.
 
 
 Getting started
