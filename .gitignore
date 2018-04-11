@@ -5,10 +5,9 @@
 .classpath
 .project
 .settings/
+build/
+node/
+node_modules/
 target/
+cache/
 dependency-reduced-pom.xml
-node_modules
-node
-build
-build.config.js.sample
-
