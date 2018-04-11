@@ -5,21 +5,14 @@
         <maven>3.1</maven>
     </prerequisites>
 
-    <parent>
-<<<<<<< Updated upstream
-    <artifactId>graylog-project</artifactId>
-    <groupId>org.graylog</groupId>
-    <version>3.0.0-alpha.2-SNAPSHOT</version>
-  </parent>
-    <groupId>com.grayenterprise</groupId>
-=======
+	<parent>
         <groupId>org.graylog.plugins</groupId>
         <artifactId>graylog-plugin-web-parent</artifactId>
         <version>3.0.0-alpha.2-SNAPSHOT</version>
         <relativePath>../graylog2-server/graylog-plugin-parent/graylog-plugin-web-parent</relativePath>
     </parent>
 
->>>>>>> Stashed changes
+	<groupId>org.graylog.plugins</groupId>
     <artifactId>graylog-plugin-fifty-shades</artifactId>
     <version>3.0.0-alpha.2-SNAPSHOT</version>
     <packaging>jar</packaging>
