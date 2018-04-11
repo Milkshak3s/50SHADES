@@ -8,13 +8,13 @@
 	<parent>
         <groupId>org.graylog.plugins</groupId>
         <artifactId>graylog-plugin-web-parent</artifactId>
-        <version>3.0.0-alpha.2-SNAPSHOT</version>
+        <version>3.0.0-alpha.1</version>
         <relativePath>../graylog2-server/graylog-plugin-parent/graylog-plugin-web-parent</relativePath>
     </parent>
 
 	<groupId>org.graylog.plugins</groupId>
     <artifactId>graylog-plugin-fifty-shades</artifactId>
-    <version>3.0.0-alpha.2-SNAPSHOT</version>
+    <version>1.0.0</version>
     <packaging>jar</packaging>
 
     <name>${project.artifactId}</name>
@@ -32,7 +32,7 @@
         <connection>scm:git:git@github.com:Milkshak3s/50SHADES.git</connection>
         <developerConnection>scm:git:git@github.com:Milkshak3s/50SHADES.git</developerConnection>
         <url>https://github.com/Milkshak3s/50SHADES</url>
-        <tag>HEAD</tag>
+        <tag>1.0.0</tag>
     </scm>
 
     <distributionManagement>
@@ -87,7 +87,7 @@
         <dependency>
             <groupId>org.graylog2</groupId>
             <artifactId>graylog2-server</artifactId>
-            <version>${graylog.version}</version>
+            <version>3.0.0-alpha.1</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
