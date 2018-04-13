@@ -14,7 +14,7 @@
 
 	<groupId>org.graylog.plugins</groupId>
     <artifactId>graylog-plugin-fifty-shades</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.2-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>${project.artifactId}</name>
@@ -32,7 +32,7 @@
         <connection>scm:git:git@github.com:Milkshak3s/50SHADES.git</connection>
         <developerConnection>scm:git:git@github.com:Milkshak3s/50SHADES.git</developerConnection>
         <url>https://github.com/Milkshak3s/50SHADES</url>
-        <tag>1.0.1</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <distributionManagement>
